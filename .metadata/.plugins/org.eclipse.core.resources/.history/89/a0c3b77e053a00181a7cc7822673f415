@@ -1,0 +1,28 @@
+package test;
+
+import javax.persistence.EntityManager;
+
+public class JPAtest {
+
+	private EntityManager manager;
+
+	
+	public JPAtest(EntityManager manager){
+		this.manager = manager;
+	}
+	
+	public static void main(String[] args) {
+		
+	}
+	
+	public EntityManager getManager() {
+		return manager;
+	}
+
+	public void setManager(EntityManager manager) {
+		this.manager = manager;
+	}
+	
+	
+	
+}
